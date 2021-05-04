@@ -1,4 +1,4 @@
-quicksort <- function(x) {
+quick_sort <- function(x) {
   if(length(x) <= 1) return(x)
   
   pivot       <- x[1]

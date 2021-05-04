@@ -11,5 +11,6 @@ quick_sort <- function(x) {
   
   return(c(remainder_1, pivot, remainder_2))
 }
+
 x = c(78,65,65,98,465,465,465,45,465,21,465,98,65,46,65,8,978,465,21,45)
 quick_sort(x)

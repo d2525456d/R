@@ -6,8 +6,8 @@ quick_sort <- function(x) {
   remainder_1 <- remainder[remainder < pivot]
   remainder_2 <- remainder[remainder >= pivot]
     
-  remainder_1 <- quicksort(remainder_1)
-  remainder_2 <- quicksort(remainder_2)
+  remainder_1 <- quick_sort(remainder_1)
+  remainder_2 <- quick_sort(remainder_2)
   
   return(c(remainder_1, pivot, remainder_2))
 }
